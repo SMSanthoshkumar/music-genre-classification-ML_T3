@@ -89,6 +89,18 @@ GTZAN Genre Classification Dataset
 5. Predict music genre using Deep Learning model
 6. Display predicted genre
 
+## Real World Applications
+
+The concepts used in this Music Genre Classification project can be applied in many real-world domains where signal or wave pattern analysis is important.
+
+- **Space Research:** Classifying celestial objects using cosmic and radio wave patterns.
+- **Underwater Sonar Systems:** Detecting submarines or marine objects through sonar signals.
+- **Healthcare:** 
+  - **ECG** for heart activity analysis and disease detection.
+  - **EEG** for brain signal analysis and neurological disorder detection.
+
+This project demonstrates how deep learning can intelligently analyze waveform-based data across multiple industries.
+
 ## Folder Structure
 
 music-genre-classification-ML_T3/
