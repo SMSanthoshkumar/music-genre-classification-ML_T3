@@ -53,6 +53,12 @@ Hip-Hop · Rock · Reggae · Jazz · Classical · Electronic · Pop · Metal · 
 3. Enter your song's **Tempo (BPM)** and **Spectral Centroid (Hz)** in the yellow input cells
 4. The **AUTO GENRE MATCH** column will highlight the closest genre with ✅
 
+## Performance
+1.Training Accuracy
+    99.22% accuracy
+2.Testing Accuracy
+    90.31% accuracy
+
 ## 📌 Example Ranges
 
 | Genre | Tempo (BPM) | Spectral Centroid (Hz) | Dominant Freq (Hz) |
