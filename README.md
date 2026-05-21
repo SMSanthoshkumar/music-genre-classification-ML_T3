@@ -24,6 +24,45 @@ This project is designed to classify music genres automatically using Deep Learn
 - Reggae
 - Rock
 
+## 🎼 Genres Covered
+
+Hip-Hop · Rock · Reggae · Jazz · Classical · Electronic · Pop · Metal · Blues · Country
+
+## 📊 Parameters Used
+
+| Parameter | Description |
+|---|---|
+| **Mel-Spectrogram** | Visual energy pattern across time and frequency |
+| **MFCC** | Mel-Frequency Cepstral Coefficients — timbre fingerprint |
+| **Spectral Centroid** | Brightness of sound (Hz) |
+| **Dominant Frequency** | Core frequency range of the genre (Hz) |
+| **Tempo / BPM** | Rhythmic speed range |
+| **Chroma Features** | Key, harmony, and chord type |
+| **Spectral Rolloff** | Frequency below which most energy is concentrated (Hz) |
+
+## 📁 Sheets
+
+- **Genre Classification** — Qualitative descriptions of all 7 parameters per genre
+- **Numerical Ranges** — Exact min/max values; enter your song's Tempo & Spectral Centroid in the yellow cells to auto-match a genre
+- **Feature Charts** — Bar charts comparing Tempo and Spectral Centroid ranges across all 10 genres
+
+## ⚡ How to Use
+
+1. Extract audio features from your song using a library like `librosa` (Python)
+2. Open the **Numerical Ranges** sheet
+3. Enter your song's **Tempo (BPM)** and **Spectral Centroid (Hz)** in the yellow input cells
+4. The **AUTO GENRE MATCH** column will highlight the closest genre with ✅
+
+## 📌 Example Ranges
+
+| Genre | Tempo (BPM) | Spectral Centroid (Hz) | Dominant Freq (Hz) |
+|---|---|---|---|
+| Hip-Hop | 70 – 110 | 800 – 2,500 | 60 – 4,000 |
+| Rock | 100 – 160 | 2,000 – 4,500 | 80 – 8,000 |
+| Electronic | 120 – 160 | 1,500 – 6,000 | 30 – 18,000 |
+| Metal | 120 – 280 | 3,000 – 7,000 | 60 – 16,000 |
+| Classical | 40 – 180 | 1,000 – 5,000 | 40 – 16,000 |
+
 ## Technologies Used
 - Python
 - TensorFlow / Keras
